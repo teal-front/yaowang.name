@@ -1,0 +1,24 @@
+{
+  "name": "yaowang.name",
+  "version": "1.0.0",
+  "description": "source code for https://yaowang.name",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teal-front/yaowang.name.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teal-front/yaowang.name/issues"
+  },
+  "homepage": "https://github.com/teal-front/yaowang.name#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0"
+  }
+}

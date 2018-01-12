@@ -1,11 +1,16 @@
 'use strict';
 
-const http = require('http');
+const Koa = require('koa')
+const app = new Koa()
+const Router = require('koa-router')
+const router = new Router()
+const mainCtl = require('./lib/main-router');
 
-console.log(process.version);
-
-let server = http.createServer((req, res) => {
-  res.setHeader('Content-Type', 'text/html; charset=utf-8');
-  res.end('Hello World');
+app.listen(3000);
+app.on('error', (err, cxt) => {
+    console.log('Caught exception: ', err, cxt);
 });
-server.listen(3000);
+
+router.use('/', mainCtl.index)
+
+app.use(router.routes()).use(router.allowedMethods());

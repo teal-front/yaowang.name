@@ -1,6 +1,8 @@
 // modified by teal2
 'use strict';
 
+// other comment by teal
+
 const Koa = require('koa')
 const app = module.exports = new Koa()
 const Router = require('koa-router')

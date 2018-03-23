@@ -1,5 +1,7 @@
-// modified by teal2
+// modified by teal3
 'use strict';
+
+// other comment by teal
 
 const Koa = require('koa')
 const app = module.exports = new Koa()

@@ -1,4 +1,4 @@
-// modified by teal3
+// modified by teal
 'use strict';
 
 // other comment by teal

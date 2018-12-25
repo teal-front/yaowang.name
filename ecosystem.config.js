@@ -18,8 +18,8 @@ module.exports = {
   }, ],
   deploy: {
     production: {
-      user: 'root',
-      host: '47.52.160.241',
+      user: 'teal',
+      host: '35.201.140.94',
       ref: 'origin/master',
       repo: 'git@github.com:teal-front/yaowang.name.git',
       path: '/data/main/',

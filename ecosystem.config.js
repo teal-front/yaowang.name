@@ -18,6 +18,7 @@ module.exports = {
   }, ],
   deploy: {
     production: {
+      key: '~/.ssh/google_teal',
       user: 'teal',
       host: '35.201.140.94',
       ref: 'origin/master',
